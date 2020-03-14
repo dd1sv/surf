@@ -146,5 +146,10 @@ $(function () {
 
     $('.menu-btn').on('click', function () {
         $('.menu').toggleClass('active');
-    })
+        $(this).toggleClass('menu-btn-active');
+    });
+
+    new WOW().init();
+    
+
 });
